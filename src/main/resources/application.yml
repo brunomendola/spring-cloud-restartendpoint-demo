@@ -1,1 +1,4 @@
+spring.jmx.enabled: true
 management.endpoint.restart.enabled: true
+#management.endpoints.jmx.exposure.include:
+#  - restart # must be added to the list only if you customized this property, since default in *
